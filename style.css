@@ -1,0 +1,67 @@
+body{
+margin:0;
+background-color:#f1f1f1;
+}
+h1{
+background-color:brown;
+color:white;
+text-align:center;
+}
+nav{
+background-color:black;
+color:white;
+}
+nav a{
+color:grey;
+padding:  14px 16px;
+text-decoration:none;
+margin:20px 22px;
+}
+nav a:hover{
+color:white;
+}
+.column{
+float: left;
+padding:10px;
+}
+. column.side{
+width: 20%;
+}
+.column.middle{
+width: 50%;
+}
+p{
+text-align:justify;
+}
+footer{
+clear:both;
+background-color:brown;
+color:white;
+text-align:center;
+}
+
+.gallery{
+margin:5px;
+border:5px solid black;
+float:left;
+width:200px;
+}
+.gallery:hover{
+border:5px solid blue;
+}
+.gallery img{
+width:100%;
+height:auto;
+}
+.desciprition{
+text-align:center;
+padding:15px;
+}
+input[type=text], select{
+width:100%;
+padding:12px;
+border: 1px solid #ccc;
+margin-top:6px;
+margin-bottom:6px;
+resize:vertical;
+}
